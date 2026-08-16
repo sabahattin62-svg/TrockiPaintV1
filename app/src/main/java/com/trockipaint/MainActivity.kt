@@ -1,17 +1,18 @@
-
 package com.trockipaint
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.material3.Text
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContent {
-            Text("TrockiPaint V1")
-        }
+        val textView = TextView(this)
+        textView.text = "TrockiPaint V1"
+        textView.textSize = 28f
+
+        setContentView(textView)
     }
 }
