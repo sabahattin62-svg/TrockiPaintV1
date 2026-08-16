@@ -1,4 +1,4 @@
-pack
+
 package com.trockipaint
 
 import android.os.Bundle
