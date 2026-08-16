@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.trocki.paint"
+    namespace = "com.trockipaint"
     compileSdk = 35
 
     defaultConfig {
